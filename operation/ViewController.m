@@ -7,16 +7,22 @@
 //
 
 #import "ViewController.h"
+#import "TestOperation.h"
 
 @interface ViewController ()
-
+@property (nonatomic, strong) NSOperationQueue *queue;
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+
+    self.view.backgroundColor = UIColor.greenColor;
+    self.queue = [NSOperationQueue new];
+    
+    TestOperation *op = [TestOperation new];
+    [self.queue addOperation:op];
 }
 
 - (void)didReceiveMemoryWarning {

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4D3136111B43683100383EE4 /* TestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D3136101B43683100383EE4 /* TestOperation.m */; };
 		4DD790161B4200300015AD5C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD790151B4200300015AD5C /* main.m */; };
 		4DD790191B4200300015AD5C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD790181B4200300015AD5C /* AppDelegate.m */; };
 		4DD7901C1B4200300015AD5C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7901B1B4200300015AD5C /* ViewController.m */; };
@@ -14,6 +15,7 @@
 		4DD790211B4200300015AD5C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DD790201B4200300015AD5C /* Images.xcassets */; };
 		4DD790241B4200300015AD5C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4DD790221B4200300015AD5C /* LaunchScreen.xib */; };
 		4DD790301B4200310015AD5C /* operationTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7902F1B4200310015AD5C /* operationTests.m */; };
+		4DD7903B1B4200500015AD5C /* WHIOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DD7903A1B4200500015AD5C /* WHIOperation.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4D31360F1B43683100383EE4 /* TestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestOperation.h; sourceTree = "<group>"; };
+		4D3136101B43683100383EE4 /* TestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestOperation.m; sourceTree = "<group>"; };
 		4DD790101B4200300015AD5C /* operation.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = operation.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD790141B4200300015AD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DD790151B4200300015AD5C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +44,8 @@
 		4DD790291B4200310015AD5C /* operationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = operationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DD7902E1B4200310015AD5C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4DD7902F1B4200310015AD5C /* operationTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = operationTests.m; sourceTree = "<group>"; };
+		4DD790391B4200500015AD5C /* WHIOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHIOperation.h; sourceTree = "<group>"; };
+		4DD7903A1B4200500015AD5C /* WHIOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHIOperation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,10 @@
 				4DD790181B4200300015AD5C /* AppDelegate.m */,
 				4DD7901A1B4200300015AD5C /* ViewController.h */,
 				4DD7901B1B4200300015AD5C /* ViewController.m */,
+				4D31360F1B43683100383EE4 /* TestOperation.h */,
+				4D3136101B43683100383EE4 /* TestOperation.m */,
+				4DD790391B4200500015AD5C /* WHIOperation.h */,
+				4DD7903A1B4200500015AD5C /* WHIOperation.m */,
 				4DD7901D1B4200300015AD5C /* Main.storyboard */,
 				4DD790201B4200300015AD5C /* Images.xcassets */,
 				4DD790221B4200300015AD5C /* LaunchScreen.xib */,
@@ -222,6 +232,8 @@
 				4DD7901C1B4200300015AD5C /* ViewController.m in Sources */,
 				4DD790191B4200300015AD5C /* AppDelegate.m in Sources */,
 				4DD790161B4200300015AD5C /* main.m in Sources */,
+				4DD7903B1B4200500015AD5C /* WHIOperation.m in Sources */,
+				4D3136111B43683100383EE4 /* TestOperation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -418,6 +430,7 @@
 				4DD790351B4200310015AD5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4DD790361B4200310015AD5C /* Build configuration list for PBXNativeTarget "operationTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +439,7 @@
 				4DD790381B4200310015AD5C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
